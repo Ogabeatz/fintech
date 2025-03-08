@@ -1,0 +1,488 @@
+#title{
+        background-image: url('images/green3.jpg'); /*replace with your background*/
+        background-color: #ffffff;
+        background-size: cover; /* Ensure the image covers the entire div */
+        background-position: center center; /* Center the image */
+        height: 100%; /* Adjust the height as needed */
+        width: 100%; /* Ensure the div takes full width */
+}
+.navbar {
+    /* padding: 0 0 4.5rem; */
+padding: 1% 15% 1%;
+/* background-color: white; White navbar */
+/* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); Dark shadow with higher visibility} */
+}
+
+.terms_heading{
+    color: #fff;
+    padding-top: 4rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1;
+    
+}
+.text_head{
+    color: #fff;
+    letter-spacing: -.02em;
+    justify-content: center;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1;
+    display: flex;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+    
+.color_section{
+    text-align: center;
+padding-top: 4rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;}
+
+ .hero_image{
+    background-image: url('images/man.jpg'); /*Replace with your image URL*/
+    background-color: #ffffff;
+    background-size: cover; /* Ensure the image covers the entire div */
+    background-position: center center; /* Center the image */
+    height: 100vh; /* Adjust the height as needed */
+    width: 100%; /* Ensure the div takes full width */
+ }   
+
+ .text_head_sub{
+    color: rgb(255, 255, 255);
+ }
+.title-image{
+    width: 100%;
+    height: auto;
+    
+}
+
+.head_image{
+    width: 5%;
+    float: left;
+}
+
+.phone_lady{
+    width: 70%;
+    border-radius: 100px;
+}
+.color_1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-top: 4rem;
+}
+.color_text{
+    color: rgb(0, 0, 0);
+    font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.checklist{
+    width: 5%;
+    float: left;
+    
+   
+}
+
+.rd_section{
+    background-image: url('images/maxim.jpg'); 
+    /* Replace with your image URL */
+    background-size: cover; /* Ensure the image covers the entire div */
+    background-position: center center; /* Center the image */
+    width: 100%; /* Ensure the div takes full width */
+    border-radius: 10px;
+    height: 100% /* Adjust the height as needed */
+      /* Ensure the div takes full width */
+    border-radius: 10px;
+}
+
+.color_text1{
+    color: rgb(0, 0, 0);
+    margin: 2% 2%;
+    padding-left: 4%;
+}
+.app_picture{
+    width: 100%;
+    position: relative;
+    right: 15%;
+}
+
+ul, ol {
+    list-style: none; /* Removes bullet points or numbers */
+      /* Optional: removes the left padding */
+}
+
+.container{
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 0;
+}
+
+.display_app{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+#cta{
+    background-color: #000000;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;}
+.app_picture{
+    width: 50%;
+    position: relative;
+}
+
+.section.two{
+    background-color: ghostwhite;
+    border-radius: 0;
+}
+
+.section {
+    z-index: 99;
+    background-color: #000000;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-weight: 400;
+    position: relative;
+}
+.hand_text{
+    color: #fff;
+}
+.hand_hover{
+    width: 100%;
+    /* position: relative;
+    left: 30%; */
+}
+
+/* Testimonials */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.color_2{
+    border-radius: 10px;
+}
+
+.bot_display{
+    margin: 1% 0 1% 0;
+}
+
+.phone_roll{
+    width: 50%;
+}
+
+.moving_animation {
+    animation: moveUpDown 2s ease-in-out infinite; /* Controls the animation speed and behavior */
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Starting position */
+    }
+    50% {
+        transform: translateY(-5px); /* Moves up by 5px */
+    }
+    100% {
+        transform: translateY(0); /* Returns to the original position */
+    }
+}
+
+.btn{
+    /* background-color: teal;
+    border-color: teal; */
+}
+
+.partners{
+    text-align: center;
+}
+.partner_photo{
+    width: 30%;
+}
+
+.icon-container {
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: orange;
+    height: 100%;
+}
+
+.button_below{
+    text-align: center;
+    
+    
+}
+
+.services_space{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.text_con{
+    border: 10px solid ghostwhite;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    /* border-color: white; */
+   
+}
+
+
+.services_space_background{
+background-color: ghostwhite;
+}
+
+.brand_logo{
+    width: 100%;
+}
+
+.phone_round{
+    width: 100%;
+}
+
+.Phone_display{
+    padding-top: 4rem;
+    padding-inline: 4rem;
+}
+
+/* #myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+  } */
+
+
+  /* faq section */
+  .faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.faq-answer {
+    display: none;
+    margin: 5px 0;
+}
+
+.arrow {
+    font-size: 18px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background-color: #ccc;
+    transition: transform 0.3s;
+}
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}
+
+.faq_background{
+    background-color: ghostwhite;
+}
+
+.title_head{
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.text_p{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.foot_background{
+    background-color: black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.copyright{
+    margin-bottom: 0px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    color: gray;
+}
+
+.text-sm{font-size: 0.875rem;
+    line-height: 1.25rem;
+
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 5%;
+    }
+
+    .text_head {
+        font-size: 2.2rem;
+    }
+
+    .hero_image {
+        height: 50vh;
+    }
+
+    .phone_lady {
+        width: 100%;
+    }
+
+    .faq-question {
+        font-size: 0.9rem;
+    }
+
+    .arrow {
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+.text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-size: 700;
+}
+
+.w-{
+    width: 50px;
+}
+
+.flex{
+    display: flex;
+    padding-left: 33%;
+}
+
+.logo_contact{
+    text-align: center;
+    width: 50px;
+    padding-right: 17%
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* form css */
+
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.button_contact {
+    margin-top: 15px;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .title-image {
+       width: 60%;
+       height: auto;
+    }
+}
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+   .title-image{
+    width: 60%;
+    height: auto;
+   }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .text_head {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .text_head {
+        font-size: 2.8rem;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+}
+
+.text {
+    flex: 2;
+}
+
+/* Stack elements on smaller screens */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
